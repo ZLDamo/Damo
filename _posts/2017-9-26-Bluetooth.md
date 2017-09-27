@@ -8,14 +8,23 @@ categories: jekyll update
 先说一下我的目录结构(swift4.0)
 ##  1.目录结构
 |- Const
+
 |- ZLBleDocument
+
 |- ZLBluetoothManagerDelegate
+
 |- ZLBluetoothManager
+
 |- ZLBluetoothConfig
+
 |- ZLPeripheral
+
 |- ZLBluetoothMessage
+
 |- ZLBluetoothCallBackMessage
+
 |- ZLString + Extension
+
 |- ZLData + Extension
 
 其中的String分类为16进制String和Data的转化,
@@ -48,12 +57,7 @@ print("设备为空")
 return
 }
 //这里可以直接将per(ZLPeripheral)中的数据拿出来展示UI
-self?.lock.lock()
-if self?.connectingModel == nil {
 self?.connectPer(per: per!.peripheral!)
-self?.connectingModel = model
-}
-self?.lock.unlock()
 
 }) {[weak self] (perArr, error) in
 //扫描结束回调
@@ -63,11 +67,6 @@ nil,busy              //正在扫描
 perArr,timeout        //扫描的指定设备列表,超时
 perArr,stop           //连接成功,结束扫描,回调结果
 
-print("\(String(describing: perArr)),error:\(String(describing: error))")
-if error == .timeout {
-}
-if error == .centralStateError {
-}
 }
 
 3.连接
@@ -78,11 +77,6 @@ peripheral,.connect,nil           // 连接上设备
 peripheral,.discoverServices,nil  // 发现服务
 peripheral,.discoverCharacteristics,nil   //发现读或者写特征
 peripheral,.disconnect,nil        // 断开连接(复杂逻辑可在后面代理设置)
-if per != nil &&
-error == nil &&
-progress == .discoverCharacteristics {
-
-}
 })
 
 ```
@@ -589,7 +583,7 @@ x =  x + y!
 
 ```
 
-10. ZLString + Extension.Swift
+## 10.  ZLString + Extension.Swift
 - 十六进制Str转十进制Str
 - 十六进制Str转Data
 
@@ -642,7 +636,7 @@ return data
 
 ```
 
-11.ZLData + EXtension.Swift
+## 11.ZLData + EXtension.Swift
 
 - 取指定字节的字符串
 - 取指定范围的字符串
