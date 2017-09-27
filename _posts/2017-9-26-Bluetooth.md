@@ -7,7 +7,10 @@ categories: jekyll update
 
 先说一下我的目录结构(swift4.0)
 ##  1.目录结构
-|文件|内容|
+
+
+
+| 文件 | 内容 |
 |---------|:--------------:|
 | Const  | 定义ServiceUUID 和CharacteristicUUID  |      
 |ZLBleDocument|使用方法 |
@@ -19,6 +22,8 @@ categories: jekyll update
 | ZLBluetoothCallBackMessage| 接受的蓝牙数据解析|
 |ZLString + Extension|16进制String和Data的转化|
 | ZLData + Extension |分类为取指定范围的数据 |
+
+
 
 下面直接代码走起
 
@@ -514,8 +519,11 @@ delegate?.centralManager?(central, didDisconnectPeripheral: peripheral, error: e
 
 ## 9  ZLBluetoothMessage和 ZLBluetoothCallBackMessage
 分别为发送的蓝牙数据和蓝牙数据解析,为了减轻Controller的工作
+
 Example:
+
 发送数据:
+
 ```
 //回复稳定数据
 public func z_steadyBodyDataMessage() ->Data {
