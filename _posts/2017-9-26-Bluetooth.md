@@ -7,30 +7,23 @@ categories: jekyll update
 
 先说一下我的目录结构(swift4.0)
 ##  1.目录结构
-|- Const
+|文件|内容|
+|---------|:--------------:|
+| Const  | 定义ServiceUUID 和CharacteristicUUID  |      
+|ZLBleDocument|使用方法 |
+| ZLBluetoothManagerDelegate|自定义代理 |
+|ZLBluetoothManager| 核心文件,扫描,连接|
+| ZLBluetoothConfig| 搜索产品配置文件|
+| ZLPeripheral| 广播数据转化|
+| ZLBluetoothMessage| 发送的蓝牙数据|
+| ZLBluetoothCallBackMessage| 接受的蓝牙数据解析|
+|ZLString + Extension|16进制String和Data的转化|
+| ZLData + Extension |分类为取指定范围的数据 |
 
-|- ZLBleDocument
-
-|- ZLBluetoothManagerDelegate
-
-|- ZLBluetoothManager
-
-|- ZLBluetoothConfig
-
-|- ZLPeripheral
-
-|- ZLBluetoothMessage
-
-|- ZLBluetoothCallBackMessage
-
-|- ZLString + Extension
-
-|- ZLData + Extension
-
-其中的String分类为16进制String和Data的转化,
-Data的分类为取指定范围的数据
 下面直接代码走起
+
 ## 2. Const.Swift
+
 这个文件定义的是一些SeriveUUID和CharacteristicUUID,根据情况自己定义
 ```
 let CUSTOM_SERVICE_UUID     = CBUUID.init(string: "0000FF00-0000-1234-8000-00805F9B34FB")
