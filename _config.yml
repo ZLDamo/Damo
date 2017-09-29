@@ -7,7 +7,10 @@ avatarTitle: damo
 # 头像里面的描述
 avatarDesc: iOS
 url: "http://zldamo.github.io"
-
+1
+2
+sitemap:
+    path: sitemap.xml
 # Comment
 #comment:
     # disqus: leopard
