@@ -1169,7 +1169,7 @@ input[type="tel"]:-ms-input-placeholder {
 
 /*头像效果-start*/
 
-html {
+/*html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -1349,7 +1349,7 @@ body {
       width: 100px;
       height: 100px;
       /*margin-top: 20px;*/
-      border-radius: 50%;
+/*      border-radius: 50%;
   }
   .ih-item.circle {
       position: relative;
@@ -1360,7 +1360,7 @@ body {
   .ih-item.circle .info .info-back h2{
     font-size: 0.9em;
   }
-}
+}*/*/
 /*头像效果-end*/
 
 /*导航按钮-start*/
