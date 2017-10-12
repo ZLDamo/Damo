@@ -10,29 +10,18 @@ categories: jekyll update
 
 
 
-| 文件 | 内容 |
-
-|---------|:--------------:|
-
-| Const  | 定义ServiceUUID 和CharacteristicUUID  |    
-
-|ZLBleDocument|使用方法 |
-
-| ZLBluetoothManagerDelegate|自定义代理 |
-
-|ZLBluetoothManager| 核心文件,扫描,连接|
-
-| ZLBluetoothConfig| 搜索产品配置文件|
-
-| ZLPeripheral| 广播数据转化|
-
-| ZLBluetoothMessage| 发送的蓝牙数据|
-
-| ZLBluetoothCallBackMessage| 接受的蓝牙数据解析|
-
-|ZLString + Extension|16进制String和Data的转化|
-
-| ZLData + Extension |分类为取指定范围的数据 |
+| 文件                       | 内容                                 |
+| --------------------------|:------------------------------------:|
+| Const                     | 定义ServiceUUID 和CharacteristicUUID  |    
+| ZLBleDocument             | 使用方法                              |
+| ZLBluetoothManagerDelegate| 自定义代理                            |
+| ZLBluetoothManager        | 核心文件,扫描,连接                     |
+| ZLBluetoothConfig         | 搜索产品配置文件                       |
+| ZLPeripheral              | 广播数据转化                           |
+| ZLBluetoothMessage        | 发送的蓝牙数据                         |
+| ZLBluetoothCallBackMessage| 接受的蓝牙数据解                       |
+| ZLString + Extension      | 16进制String和Data的转化               |
+| ZLData + Extension        | 分类为取指定范围的数据                  |
 
 
 

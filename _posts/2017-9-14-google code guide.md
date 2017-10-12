@@ -368,13 +368,13 @@ C函数和typedef的名称应该大写，并使用驼峰大小写来处理周围
 ### 文件名
 文件名应该反映它们所包含的类实现的名称，包括案例。遵循您的项目使用的约定。文件扩展应该如下:
 
-| Extension |	 Type |
-|------------|------- |
-| .h | C/C++/Objective-C header file | 	
-|.m|	Objective-C implementation file|
-|.mm|	Objective-C++ implementation file|
-|.cc|	Pure C++ implementation file|
-|.c|	C implementation file|
+| Extension |	 Type                            |
+| ----------|----------------------------------|
+| .h        | C/C++/Objective-C header file    | 	
+| .m        |	Objective-C implementation file  |
+| .mm       |	Objective-C++ implementation file|
+| .cc       |	Pure C++ implementation file     |
+| .c        |	C implementation file            |
 
 包含跨项目或大型项目中共享的代码的文件应该具有一个明确的惟一名称，通常包括项目或类前缀。
 类的文件名应该包括被扩展的类的名称，比如GTMNSString+Utils.h或NSTextView + GTMAutocomplete.h
