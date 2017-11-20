@@ -62,14 +62,20 @@ Terminal命令终端输入 ssh root@vultr服务器ip
 进入`root@vultr: ~#`成功
 
 结束后依次输入下面三行
+-----
 >    1)wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh
+-------
+
+
 
 ![屏幕快照 2017-10-12 上午11.30.50.png](http://upload-images.jianshu.io/upload_images/7075902-a27c03df9d011e7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
+
+-----
 >  2) chmod +x shadowsocks-libev-debian.sh
-
-
- 3)./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
+3) ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
+--------
 
 
 ![屏幕快照 2017-10-12 上午11.33.52.png](http://upload-images.jianshu.io/upload_images/7075902-0b4b6eeaa814787b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
