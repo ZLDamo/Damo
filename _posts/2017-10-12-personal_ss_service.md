@@ -74,6 +74,7 @@ Terminal命令终端输入 ssh root@vultr服务器ip
 
 -------
 >  2) chmod +x shadowsocks-libev-debian.sh
+
 3) ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
 
 
